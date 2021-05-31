@@ -1,0 +1,512 @@
+body{
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+}
+
+/* Header */
+.head-link{
+    text-align: left;
+    margin: 1rem;
+}
+
+.head-link-right{
+    text-align: center;
+}
+.head-logo{
+    text-align: center;
+}
+
+.container-fluid{
+    padding: 1rem;
+    margin-left: 2rem;
+}
+
+/* Title */
+
+#title,#footnav{
+    background-color: black;
+}
+
+#title a:link,#footnav a:link,
+#title a:visited,#footnav a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+#title a:hover,#footnav a:hover,
+#title a:active ,#footnav a:active{
+    color: red;
+    text-decoration: none;
+}
+
+.mail-title{
+    text-align: left;
+    margin: auto 3rem auto 1rem;
+}
+
+.bi{
+    margin: 0 1rem;
+}
+
+/* New */
+
+.div-image-new{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 0;
+}
+
+.image-new{
+    width: 50rem;
+    height: 26rem;
+    float: left;
+    object-fit: cover;
+    padding-top: 0;
+    padding-left: 1px;
+}
+
+
+.column-right{
+    padding: 5% 10% 3% 5%;
+}
+
+.new-article{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.heading-new{
+    width: 100%;
+    padding: 20% 15%;
+    margin-top: 20%;
+}
+
+hr{
+    width: 3rem;
+    float: left;
+    border-color: black;
+    border-top-width: 1px;
+    margin-top: 13px;
+}
+.keyword{
+    clear: both;
+    margin: 0.5rem;
+    color: red;
+}
+
+.explore{
+    color: red;
+    text-decoration: underline;
+    padding-top: 1rem;
+}
+
+/* Popular */
+
+#popular{
+    clear: both;
+    padding: 100px 50px;
+}
+.popular-cont{
+    padding: 20px 0 20px 0;
+    margin: 1.5rem 0.5rem;
+}
+
+.trend-explore{
+    float: right;
+    margin-right: 4rem;
+    margin-top: 1rem;
+}
+
+.div-pop-img{
+    width: 25%;
+    height: auto;
+    text-align: center;
+    padding: 18px 0 auto 5px;
+}
+
+.popular-images{
+    width: 15rem;
+    height: 10rem;
+    float: left;
+    object-fit: cover;
+    padding-top: 10px;
+    padding-left: 0;
+    /* padding-left: 5px; */
+}
+
+.col{
+    padding-left: 0;
+}
+
+.trend-row{
+    padding: 2.5rem 0 2.5rem 0;
+}
+
+/* Photography */
+.div-photo-img{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 0;
+}
+.photography-image{
+    width: 40rem;
+    height: 32rem;
+    float: left;
+    object-fit: cover;
+    padding: 0 0 0 2.5rem;
+}
+
+.photography-grey{
+    background-color: #f5f5f5;
+    height: 27rem;
+    padding: 4rem;
+    padding-right: 0;
+}
+
+.photography-white{
+    background-color: white;
+    padding: 2rem 0 2rem 4rem;
+}
+.photo-right{
+    padding-right: 0;
+}
+
+.photo-head{
+    width: 40%;
+    font-size: 45px;
+}
+.photo-row-items{
+    padding-top: 2.5rem;
+    padding-right: 2rem;
+}
+.photo-col-items{
+    padding-right: 4.5rem;
+}
+.photo-desc{
+    margin: 1rem;
+    font-weight: bold;
+}
+.photo-date{
+    padding-top: 1rem;
+    color: #777777;
+}
+
+
+/* Travel */
+.travel-row-main{
+    margin-left: 60px;
+    padding: 5rem 1rem;
+}
+.travel-title{
+    padding-bottom: 2rem;
+    padding-top: 0;
+}
+.div-travel-img{
+    width: 25%;
+    height: auto;
+    text-align: center;
+    padding: 18px 0 auto 5px;
+}
+
+.travel-img{
+    width: 15rem;
+    height: 12rem;
+    float: left;
+    object-fit: cover;
+    padding-top: 0;
+    padding-left: 0;
+}
+
+.travel-data{
+    padding: 0 9rem 0 4rem;
+}
+.travel-date{
+    color: red;
+}
+.travel-desc{
+    color: #777777;
+}
+.travel-list{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.travel-ad{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.div-ad-travel-img{
+    width: 10%;
+    height: auto;
+    text-align: center;
+    padding: 18px 0 auto 5px;
+}
+
+.ad-travel-img{
+    width: 7.5rem;
+    height: 6rem;
+    float: left;
+    object-fit: cover;
+    padding-top: 0;
+    padding-left: 0;
+}
+.ad-travel-date{
+    color: #777777;
+    font-weight: lighter;
+    padding-top: .5rem;
+}
+.ad-travel-data{
+    padding: 0 4rem 2rem 2rem;
+}
+
+
+
+/* Beauty */
+.beauty-class{
+    width: 90%;
+    margin: 6rem 3rem 6rem 4rem;
+    background-color: #f5f5f5;
+}
+.beauty-header{
+    padding-left: 4rem;
+}
+.beauty-top{
+    padding-left: 4rem;
+}
+.beauty-explore{
+    float: right;
+    margin-right: 4rem;
+}
+.div-beauty-img{
+    width: 50%;
+    height: auto;
+    text-align: center;
+    padding: 18px 0 auto 5px;
+}
+
+.beauty-img{
+    width: 16rem;
+    height: 13rem;
+    float: left;
+    object-fit: cover;
+    text-align: center;
+}
+.beauty-list{
+    padding: 1rem;
+    margin: 2rem;
+}
+
+/* Fashion */
+.div-fashion-img{
+    width: 70%;
+    height: auto;
+    text-align: center;
+    padding: 18px 0 auto 5px;
+}
+
+.fashion-main-img{
+    width: 55rem;
+    height: 35rem;
+    float: left;
+    object-fit: cover;
+    padding-top: 0;
+    padding-left: 0;
+}
+.fashion-desc-row{
+    padding: 3rem 2rem 2rem 2.5rem;
+}
+.fashion-right-col{
+    padding: 0 2rem 2rem 3rem;
+}
+.div-fashion-img{
+    width: 10%;
+    height: auto;
+    text-align: center;
+    padding: 18px 0 auto 5px;
+}
+
+.fashion-img{
+    width: 12rem;
+    height: 7.5rem;
+    float: left;
+    object-fit: cover;
+    padding-top: 0;
+    padding-left: 0;
+}
+.top-left {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    background-color: #f83d5c;
+    color: white;
+    width: 6rem;
+    height: 1.8rem;
+  }
+.fashion-list{
+    padding: 2rem 2rem 2rem 0;
+}
+.fashion-data{
+    padding-right: 3rem;
+}
+.fashion-desc{
+    color: #777777;
+    padding-top: .5rem;
+}
+
+/* ad */
+.vacation-ad{
+    margin: 5rem 3rem;
+    padding: 3rem 2rem;
+}
+
+/* Food and Drink */
+.card{
+    width: 97%;
+}
+.div-food-img{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 0;
+}
+
+.food-img{
+    width: 20rem;
+    height: 12rem;
+    float: left;
+    object-fit: cover;
+    padding-top: 0;
+    padding-left: 1px;
+}
+.food-hr{
+    display: inline-block;
+    width: 3px;
+    height: 3px;
+    border-radius: 100%;
+}
+.food-card{
+    padding: 1% 1%;
+}
+.food-footer{
+    padding: 2% 2%;
+    max-height: 1%;
+    background-color: white;
+    color: #777777;
+    text-align: center;
+}
+.card-body{
+    padding-bottom: 4rem;
+    text-align: center;
+    max-height: 8rem;
+}
+
+/* Body and Health */
+.parent{
+    position: relative;
+    padding: 7% 0 20% 0;
+}
+.grey-part{
+    width: 90%;
+    background-color: #f5f5f5;
+    padding: 8% 10%;
+    position: relative;
+}
+.body-desc{
+    padding: 2% 0 5%;
+    color: #777777;
+
+}
+
+.video-image{
+    position: absolute;
+    right: 5%;
+    bottom: 18%;
+    width: 58%;
+}
+
+/* Decor */
+.div-decorate-img{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 0;
+}
+
+.decorate-img{
+    width: 15rem;
+    height: 12rem;
+    float: left;
+    object-fit: cover;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.decorate-row{
+    padding: 2% 3%;
+}
+
+
+/* Subscribe */
+.subscribe-left{
+    padding: 5% 2% 2% 12%;
+}
+
+.subscribe-right{
+    padding: 3% 5%;
+    background-color: #f5f5f5;
+}
+
+.subscribe-img{
+    float: left;
+}
+.foot-icon{
+    background-color: #e4e4e4;
+    color: #777777;
+	border-radius: 2rem;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 1.0rem;
+	height: 2rem;
+	line-height: 2rem;
+	margin: 0 1px;
+	position: relative;
+	text-align: center;
+	width: 2rem;
+}
+.div-foot-icons{
+    display: inline-block;
+}
+.input-subs{
+    height: 40px;
+    width: 40%;
+    border: 0;
+    margin-right: -1%;
+}
+.subs-btn{
+    height: 40px;
+    width: 20%;
+    border-radius: 0;
+    border: 0;
+    margin-top: -5px;
+}
+.email-area{
+    margin: 4% 0 6%;
+}
+.icon-area{
+    padding-left: 1.5%;
+    opacity: 0.7;
+}
+
+/* Foot Nav */
+
+a#footnav{
+    margin: 3rem 2.5rem;
+    padding: 0 1rem;
+}
+
+/* Footer */
+footer{
+    background-color: black;
+    color: white;
+    padding: 0px;
+}
